@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="content-language" content="en-EN" />
+    
+    <title>Camera: 3D Face</title>
+    
+    <!-- INCLUDE JEELIZ FACEFILTER SCRIPT -->
+    <script src="./dist/jeelizFaceFilter.js"></script>
+
+    <!-- INCLUDE THREE.JS -->
+    <script src="./threejs/v106/three.js"></script>
+    <script src="./threejs/v97/GLTFLoader.js"></script>
+    
+    <!-- INCLUDE JEELIZRESIZER -->
+    <script src="./helpers/JeelizResizer.js"></script>
+
+    <!-- INCLUDE JEELIZ THREE.JS HELPER -->
+    <script src="./helpers/JeelizThreejsHelper.js"></script>
+    
+    <!-- INCLUDE DEMO SCRIPT -->
+    <script src="./demo_gltf.js"></script>
+
+    <style>
+      body{
+        padding:0;
+        margin: 0;
+        height:100vh;
+        width: 100vw;
+      }
+    </style>
+
+  </head>
+  
+  <body onload="main()" style='color: white'>
+    <canvas width="600" height="600" id='jeeFaceFilterCanvas'></canvas>
+  </body>
+</html>
+ 
+ 
